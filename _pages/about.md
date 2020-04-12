@@ -1,9 +1,9 @@
 ---
-title: "About"
 layout: single
+title: "About"
 permalink: /about/
-#header:
- #image: "/images/waterfront.jpg"
+header:
+ image: "/images/1234.jpg"
 
 ---
 
