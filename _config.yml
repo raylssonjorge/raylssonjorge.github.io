@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Raylsson Jorge"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  "/images/12.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I a person."
   location         : "Belo Horizonte, MG"
   email            :
