@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "About"
 permalink: /about/
+title: "About"
 header:
  image: "/images/1234.jpg"
 
