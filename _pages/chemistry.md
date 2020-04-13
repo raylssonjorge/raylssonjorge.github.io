@@ -1,9 +1,7 @@
 ---
-layout : archive
+layout : tag
 permalink: /chemistry/
-title: "Chemistry page"
-author_profile: true
-#header:
- #image: "/images/12.png"
-
+title: "Chemistry"
+author_profile: false
+taxonomy: Chemistryy
 ---
