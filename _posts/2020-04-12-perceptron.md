@@ -5,7 +5,7 @@ tags: [Machine Learning]
 header:
 #  image: "/images/1234.jpg"
 
-#excerpt: "Machine Learning"
+excerpt: "Machine Learning"
 mathjax: "true"
 ---
 
