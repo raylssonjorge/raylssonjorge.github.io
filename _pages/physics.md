@@ -1,13 +1,7 @@
 ---
-
-
-title: phiscs
-layout: tag
-permalink: /tags/Physics/
+layout : archive
+permalink: /physics/
+title: "Machine Learning Posts by Tag"
+author_profile: true
 taxonomy: Physics
-
-
 ---
-
-
-sdfsdfffdf
