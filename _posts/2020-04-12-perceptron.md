@@ -1,11 +1,11 @@
 ---
-title: "Machine learning blaclbas"
+title: "Machine Learning"
 date: 2020-04-12
 tags: [Machine Learning]
 header:
 #  image: "/images/1234.jpg"
 
-excerpt: "Machine Learning"
+#excerpt: "Machine Learning"
 mathjax: "true"
 ---
 
