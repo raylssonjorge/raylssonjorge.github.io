@@ -4,6 +4,10 @@ main:
     url: /about/
   - title: "Machine Learning"
     url: /machine-learning/
+  - title: "Physics"
+    url: /physics/
+  - title: "Chemistry"
+    url: /chemistry/
   #- title: "Vizualization"
    # url:  /vizualization/
   # - title: "Sample Posts"
