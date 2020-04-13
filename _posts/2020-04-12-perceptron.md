@@ -1,11 +1,11 @@
 ---
 title: "Machine learning blaclbas"
 date: 2020-04-12
-tags: [machinelearning]
+tags: [Machine Learning]
 header:
 #  image: "/images/1234.jpg"
 
-excerpt: "Machine Learning, Perceptron, Data Science"
+excerpt: "Machine Learning"
 mathjax: "true"
 ---
 
