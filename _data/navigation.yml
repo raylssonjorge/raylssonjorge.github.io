@@ -5,7 +5,7 @@ main:
   - title: "Machine Learning"
     url: /machine-learning/
   - title: "Physics"
-    url: /physics/
+    url: /tags/physics/
   - title: "Chemistry"
     url: /chemistry/
   #- title: "Vizualization"
