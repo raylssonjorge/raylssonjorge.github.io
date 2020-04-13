@@ -6,7 +6,7 @@ header:
   image: "/images/1234.jpg"
 
 excerpt: "Machine Learning, Perceptron, Data Science"
-mathjax: "true"
+
 ---
 
 # H1 heading
@@ -33,7 +33,3 @@ Image:
 
 
 some math:
-
-$$z = x + y $$
-
-You can also put
