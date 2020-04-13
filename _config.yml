@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Raylsson Jorge"
-  avatar           :  "/images/comedia.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  "/images/rr.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Blog with some relevant things I find interesting about the natural world"
   location         : "Belo Horizonte, MG"
   email            :  "raylssonjorge1@gmail.com"
@@ -102,9 +102,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
        #url: mailto:raylssonjorge1@gmail.com
-    - label: "Website"
+    - label: "Khan academy"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.khanacademy.org/profile/MagnusChases/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
