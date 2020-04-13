@@ -4,9 +4,9 @@ permalink: /about/
 title: "About"
 header:
 
-  <img src="/images/001.jpg" alt="drawing" width="1000" height="600"/>
+ #<img src="drawing.jpg" alt="drawing" width="200"/>
 
-# image: "/images/001.jpg"
+ image: "/images/rsz_001.jpg"
 
 ---
 
