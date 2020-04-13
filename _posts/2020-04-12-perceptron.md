@@ -1,18 +1,18 @@
 ---
 title: "Machine learning blaclbas"
 date: 2020-04-12
-tags: [machine learning]
+tags: [machinelearning]
 header:
 #  image: "/images/1234.jpg"
 
-excerpt: "Machine Learning, Data Science"
+excerpt: "Machine Learning, Perceptron, Data Science"
 mathjax: "true"
 ---
 
 # H1 heading
 
 Python code block:
-adsfsdf
+
 
 ```javascript
 
