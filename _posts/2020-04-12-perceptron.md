@@ -13,10 +13,16 @@ excerpt: "Machine Learning, Perceptron, Data Science"
 
 Python code block:
 
-``` python
-      import numpy as np
 
-      
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+java script
+
+```python
+s = "Python syntax highlighting"
+print s
 ```
 
 
