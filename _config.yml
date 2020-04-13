@@ -97,7 +97,7 @@ author:
   avatar           :  "/images/waterfront.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I a person."
   location         : "Belo Horizonte, MG"
-  email            :
+  email            :  "raylssonjorge1@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
