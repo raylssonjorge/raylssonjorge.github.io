@@ -2,7 +2,7 @@
 title: "Machine learning blaclbas"
 date: 2020-04-12
 tags: [machine learning]
-#header:
+header:
 #  image: "/images/1234.jpg"
 
 excerpt: "Machine Learning, Perceptron, Data Science"
