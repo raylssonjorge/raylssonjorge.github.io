@@ -15,19 +15,25 @@ Python code block:
 
 
 ```javascript
+
 var s = "JavaScript syntax highlighting";
 alert(s);
+
 ```
-java script
+
+java script:
+
 
 ```python
+
 s = "Python syntax highlighting"
 print s
+
 ```
 
 
 
-inline code 'x+y' .
+inline code 'x+z+y' .
 
 
 Image:
