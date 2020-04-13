@@ -4,7 +4,7 @@ permalink: /physics/
 title: "Physics "
 author_profile: true
 header:
- image: "/images/12.png"
+
 
 ---
 
