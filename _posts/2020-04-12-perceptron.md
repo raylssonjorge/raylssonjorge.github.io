@@ -13,7 +13,15 @@ excerpt: "Machine Learning, Perceptron, Data Science"
 
 Python code block:
 
+```python
 
+    import numpy as np
+
+    def test_function(x, y):
+      z = np.sum(x,y)
+      return z
+
+```
 
 
 inline code 'x+y' .
