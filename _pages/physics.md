@@ -1,7 +1,7 @@
 ---
-layout : archive
+layout : tag
 permalink: /physics/
-title: "Machine Learning Posts by Tag"
-author_profile: true
-taxonomy: Physics
+title: "BAlloooo"
+author_profile: false
+taxonomy: Physicss
 ---
