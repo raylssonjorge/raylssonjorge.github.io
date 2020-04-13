@@ -3,8 +3,8 @@ layout: single
 permalink: /about/
 title: "About"
 header:
- image: "/images/1234.jpg"
+ image: "/images/001.jpg"
 
 ---
 
-I am a senior bla bla bla bla
+I am a student(undergraduate)who is interested in the many beauties of this world.

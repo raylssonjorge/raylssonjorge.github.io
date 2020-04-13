@@ -12,7 +12,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 #remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -20,7 +20,7 @@ title                    : "Raylsson Magalhães"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Raylsson Magalhães"
-description              : "An website"
+description              : "An website used to share good information"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Raylsson Jorge"
-  avatar           :  "/images/waterfront.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I a person."
+  avatar           :  "/images/comedia.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Blog with some relevant things I find interesting about the natural world"
   location         : "Belo Horizonte, MG"
   email            :  "raylssonjorge1@gmail.com"
   links:
