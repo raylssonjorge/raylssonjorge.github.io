@@ -1,5 +1,7 @@
 ---
-layout : archive
+classes: wide
+
+layout : single
 permalink: /physics/
 title: "Physics"
 author_profile: true
