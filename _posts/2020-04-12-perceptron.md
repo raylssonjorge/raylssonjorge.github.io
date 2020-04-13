@@ -6,7 +6,7 @@ header:
 #  image: "/images/1234.jpg"
 
 excerpt: "Machine Learning, Perceptron, Data Science"
-
+mathjax: "true"
 ---
 
 # H1 heading
@@ -39,3 +39,7 @@ inline code 'x+z+y' .
 Image:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/1234.jpg" alt="something">
+
+
+some math:
+$$z=x+y$$
