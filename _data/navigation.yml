@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Machine Learning"
+  - title: "ML"
     url: /machine-learning/
   - title: "Physics"
     url: /physics/
@@ -10,6 +10,8 @@ main:
     url: /chemistry/
   - title: "p5 JavaScript"
     url: /p5/
+  - title: "Books"
+    url: /books/
 
   #- title: "Vizualization"
    # url:  /vizualization/
