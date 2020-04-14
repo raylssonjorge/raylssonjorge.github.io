@@ -7,4 +7,6 @@ header:
 
 ---
 
-I am a student(undergraduate)who is interested the many beauties of this world.
+I am a student(undergraduate).
+
+[comment]: <> (who is interested the many beauties of this world)
