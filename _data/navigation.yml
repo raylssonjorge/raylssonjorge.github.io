@@ -8,6 +8,9 @@ main:
     url: /physics/
   - title: "Chemistry"
     url: /chemistry/
+  - title: "p5 JavaScript"
+    url: /p5/
+
   #- title: "Vizualization"
    # url:  /vizualization/
   # - title: "Sample Posts"
