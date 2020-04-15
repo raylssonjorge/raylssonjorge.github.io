@@ -1,7 +1,7 @@
 ---
 layout : tag
 permalink: /physics/
-title: "BAlloooo"
+title: "Physics"
 author_profile: false
 taxonomy: Physicss
 ---
