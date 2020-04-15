@@ -5,6 +5,6 @@ title: "Physics"
 author_profile: false
 taxonomy: Physicss
 header:
- image: "/images/gas.png"
+ image: "/images/gas_main.png"
 
 ---
