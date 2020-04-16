@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "ML"
+  - title: "Posts by tags"
     url: /machine-learning/
   - title: "Physics"
     url: /physics/
