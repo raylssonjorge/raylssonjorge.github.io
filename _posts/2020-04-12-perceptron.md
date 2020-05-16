@@ -7,6 +7,7 @@ header:
 
 excerpt: "Machine Learning"
 mathjax: "true"
+comments: true
 ---
 
 # H1 heading
