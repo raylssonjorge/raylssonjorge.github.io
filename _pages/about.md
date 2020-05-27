@@ -15,6 +15,6 @@ I will give a resume from my main interests:
 3. Chemistry: Study and simulation of the interaction of molecules (molecular dynamics) at a microscopic level using parallel computing.
 4. Programming: Everything involving data visualization, manipulation of data, and solving problems with the three subjects mentioned above. In the free time Machine Learning and Deep Learning are my occupations.
 
-
+In the meantime between all of this I like to play with the birbs (evil face),improve my Arch Linux setup and practice sports (running and chess).
 
 [comment]: <> (who is interested the many beauties of this world)
