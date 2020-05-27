@@ -7,8 +7,8 @@ header:
 
 ---
 
-I am a student(undergraduate). :p
 
+I am a polymath student(undergraduate). I am currently studying physics at the University of Minas Gerais. My interests of study is in a wide range of subjects that includes Physics, Mathematics, Chemistry and Programming. When I am not doing the above I am probably reading books, playing chess or learning about arts and humanities (history and art in general).
 
 
 
