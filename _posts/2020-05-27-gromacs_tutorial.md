@@ -1,5 +1,5 @@
-  ---
-  title: "Tutorial Gromacs [Cluster]"
+---
+  title: "Tutorial Gromacs (Cluster)"
   date: 2020-05-27
   tags: [Chemistryy]
   header:
@@ -7,10 +7,9 @@
 
   #excerpt: "Physics, Chemistry"
   mathjax: "true"
-  comments: "true"
 
 
-  ---
+---
 
 
 
