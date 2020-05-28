@@ -97,7 +97,7 @@ Suponhamos que você tenha um arquivo .tpr do gromacs e queira rodar no sdumont.
 
 
 ```
-scp file.tpr   nome.sobrenome@login.sdumont.lncc.br:/scratch/NOMEDOPROJETO/username/
+~ scp file.tpr   nome.sobrenome@login.sdumont.lncc.br:/scratch/NOMEDOPROJETO/username/
 ```
 
 
@@ -184,6 +184,163 @@ Agora basta  mudar para uma fila que tem um tempo maior pois o tempo limite das 
 
 
 
+## Orca
+
+Suponhamos que você tenha um arquivo.inp (ORCA) e queira rodar no sdumont.Basta seguir os mesmos processos:
+1. envie o arquivo usando scp para o /scratch do seu usuário.
+2. crie um script para o orca (vim script_orca) .
+3. copie e cole um script padronizado para o orca: 
+
+
+
+```
+#!/bin/bash -l
+#SBATCH --nodes=1                   #Numero de Nós
+#SBATCH --ntasks-per-node=1         #Numero de tarefas por Nó
+#SBATCH --ntasks=1                  #Numero total de tarefas MPI
+#SBATCH --cpus-per-task=20    
+#SBATCH -p cpu_dev                  #Fila (partition) a ser utilizada
+#SBATCH -J sds                      #Nome job
+#SBATCH --error=teste.err
+##SBATCH --output=teste.out
+#SBATCH --exclusive                 #Utilização exclusiva dos nós durante a execução do job
+
+module purge all
+module load orca/4.0.1              #Seleciona a versão do orca desejada e carrega o módulo
+module list		                    #Mostra os módulos ativos para o seu usuário 
+
+EXEC=/scratch/app/orca/4.0.1/orca
+
+
+srun $EXEC SDS_linear.inp  > SDS_linear.out
+```
+
+
+Veja que você PRECISA  editar o nome do arquivo que o orca vai executar.(No meu caso estou querendo rodar o SDS_linear.inp gerando um SDS_linear.out.)
+
+
+
+4. Execute o comando:
+
+```
+~ sbatch script_orca
+```
+
+5. edite o nome da fila que quer usar (uma fila que usa apenas cpu (cpu , cpu_long, cpu_shared )
+
+6. use $ squeue -u username para verificar se está rodando  / verifique o .out usando $  tail -f file_name.out 
+
+
+Pronto! Agora é aguardar e verificar se o cálculo acabou (ou se entrou em problemas rs ).
+
+
+
+
+## SCRIPTS
+
+Nota: Eu gosto de usar a fila nvidia_long e cpu_shared pq geralmente são rapidas para o cálculo começar a rodar.
+gromacs (gpu)
+
+
+
+#### Gromacs (Gpu)
+
+```
+#!/bin/bash -l
+#SBATCH --nodes=1                      #Numero de Nós
+#SBATCH --ntasks-per-node=1            #Numero de tarefas por Nó
+#SBATCH --ntasks=1                     #Numero total de tarefas MPI
+#SBATCH --cpus-per-task=24   
+#SBATCH -p nvidia_long                 #Fila (partition) a ser utilizada
+#SBATCH -J ctac_l_oct                  #Nome job
+#SBATCH --error=teste.err
+##SBATCH --output=teste.out
+#SBATCH --exclusive                    #Utilização exclusiva dos nós durante a execução do job
+
+module purge all
+module load gromacs/2019.1_openmpi_gnu
+module list
+
+exec=/scratch/app/gromacs/2019.1_openmpi_gnu/bin/gmx_mpi_gpu
+
+srun $exec mdrun -v -deffnm md_ctac_oc3t -nb gpu
+```
+
+#### Gromacs (cpu)
+
+
+```
+#!/bin/bash -l
+#SBATCH --nodes=1                      #Numero de Nós
+#SBATCH --ntasks-per-node=1            #Numero de tarefas por Nó
+#SBATCH --ntasks=1                     #Numero total de tarefas MPI
+#SBATCH --cpus-per-task=24    
+#SBATCH -p cpu_shared                  #Fila (partition) a ser utilizada
+#SBATCH -J md_sds_oct                  #Nome job
+#SBATCH --error=teste.err
+##SBATCH --output=teste.out
+#SBATCH --exclusive                    #Utilização exclusiva dos nós durante a execução do job
+ 
+module purge all
+module load gromacs/2019.3_openmpi_gnu
+module list
+ 
+exec=/scratch/app/gromacs/2019.3_openmpi_gnu/bin/gmx_mpi
+srun $exec mdrun  -v -deffnm md_sds_l_oct
+```
+
+
+
+
+#### Gromacs (restart from checkpoint)
+
+
+
+
+```
+#!/bin/bash -l
+#SBATCH --nodes=1                      #Numero de Nós
+#SBATCH --ntasks-per-node=1            #Numero de tarefas por Nó
+#SBATCH --ntasks=1                     #Numero total de tarefas MPI
+#SBATCH --cpus-per-task=24      
+#SBATCH -p nvidia_long                 #Fila (partition) a ser utilizada
+#SBATCH -J md_1_ctac_l_oct             #Nome job
+#SBATCH --error=teste.err
+##SBATCH --output=teste.out
+#SBATCH --exclusive                    #Utilização exclusiva dos nós durante a execução do job
+
+
+module purge all
+module load gromacs/2019.3_openmpi_gnu
+module list
+
+exec=/scratch/app/gromacs/2019.3_openmpi_gnu/bin/gmx_mpi_gpu
+srun $exec mdrun  -v -deffnm md_1_ctac_l_oct -cpi md_1_ctac_l_oct.cpt -append -nb gpu
+```
+
+
+#### Orca (cpu)
+
+
+```
+#!/bin/bash -l
+#SBATCH --nodes=1                      #Numero de Nós
+#SBATCH --ntasks-per-node=1            #Numero de tarefas por Nó
+#SBATCH --ntasks=1                     #Numero total de tarefas MPI
+#SBATCH --cpus-per-task=24    
+#SBATCH -p cpu_shared                 #Fila (partition) a ser utilizada
+#SBATCH -J sds                    #Nome job
+#SBATCH --error=teste.err
+##SBATCH --output=teste.out
+#SBATCH --exclusive                    #Utilização exclusiva dos nós durante a execução do job
+
+module purge all
+module load orca/4.0.1
+module list
+
+EXEC=/scratch/app/orca/4.0.1/orca
+srun $EXEC SDS_linear.inp  > SDS_linear.out
+```
 
 
 
