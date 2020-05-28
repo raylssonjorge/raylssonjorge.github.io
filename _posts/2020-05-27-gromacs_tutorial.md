@@ -83,6 +83,22 @@ exec=/scratch/app/nome_do_software/caminho até o executável
 srun $exec  comandos_adicionais
 ```
 
+O número de nós  é um jeito de dividir os processos para computação. A imagem abaixo mostra as possíveis filas do cluster:
+
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/filas.png" alt="filas disponiveis no cluster">
+
+As filas são algo importante para saber onde se deve colocar seu Job.Basta ficar atento quanto tempo irá precisar e quais filas são rápidas para rodar seu job.Os módulos são um jeito de você carregar os softwares para serem usados.
+Para ver quais softwares estão disponíveis para você usar basta digitar " $  module avail " no seu terminal
+
+
+
+
+
+
+
+
 
 
 ## Gromacs
