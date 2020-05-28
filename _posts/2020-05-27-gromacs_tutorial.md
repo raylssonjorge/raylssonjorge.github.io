@@ -239,7 +239,7 @@ Pronto! Agora é aguardar e verificar se o cálculo acabou (ou se entrou em prob
 ## SCRIPTS
 
 Nota: Eu gosto de usar a fila nvidia_long e cpu_shared pq geralmente são rapidas para o cálculo começar a rodar.
-gromacs (gpu)
+
 
 
 
@@ -328,8 +328,8 @@ srun $exec mdrun  -v -deffnm md_1_ctac_l_oct -cpi md_1_ctac_l_oct.cpt -append -n
 #SBATCH --ntasks-per-node=1            #Numero de tarefas por Nó
 #SBATCH --ntasks=1                     #Numero total de tarefas MPI
 #SBATCH --cpus-per-task=24    
-#SBATCH -p cpu_shared                 #Fila (partition) a ser utilizada
-#SBATCH -J sds                    #Nome job
+#SBATCH -p cpu_shared                  #Fila (partition) a ser utilizada
+#SBATCH -J sds                         #Nome job
 #SBATCH --error=teste.err
 ##SBATCH --output=teste.out
 #SBATCH --exclusive                    #Utilização exclusiva dos nós durante a execução do job
