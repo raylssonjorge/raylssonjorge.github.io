@@ -1,7 +1,7 @@
 ---
   title: "Tutorial Gromacs (Cluster)"
   date: 2020-05-27
-  tags: [Chemistryy]
+  tags: [Chemistry]
   header:
   #  image: "/images/1234.jpg"
 
