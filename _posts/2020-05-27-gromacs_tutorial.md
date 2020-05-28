@@ -7,7 +7,7 @@
 
   #excerpt: "Physics, Chemistry"
   mathjax: "true"
-
+  classes: wide
 
 ---
 
@@ -44,7 +44,7 @@ O seu diretório do seu usuário é onde você deve manter seus arquivos seguros
 
 
 
-### Agora vamos a parte para rodar cálculos.
+### Agora vamos a parte de rodar cálculos.
 
 Digite o seguinte comando no seu terminal (conectado ao sdumont):
 
