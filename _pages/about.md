@@ -12,9 +12,9 @@ I am also interested in computers, free software and Open Source (two different 
 I will give a resume from my main interests:
 1. Physics: Study of Dynamical Systems, Condensed matter, Classical Mechanics, Astrophysics.
 2. Mathematics: Analysis, Advanced Calculus, Applied Mathematics, Number theory.
-3. Chemistry: Study and simulation of the interaction of molecules (molecular dynamics) at a microscopic level using parallel computing.
+3. Chemistry: Study and simulation of the interaction between molecules (molecular dynamics) at a microscopic level using parallel computing.
 4. Programming: Everything involving data visualization, manipulation of data, and solving problems with the three subjects mentioned above. In the free time Machine Learning and Deep Learning are my occupations.
 
-In the meantime, between the studies, I like to play with the birbs (´Ο ∇ Ο) , improve my Arch Linux setup and practice sports (running and chess).
+In the meantime, between the studies, I like to play with the birbs  `(´Ο ∇ Ο`)´  , improve my Arch Linux setup and practice sports (running and chess).
 
 [comment]: <> (who is interested the many beauties of this world)
